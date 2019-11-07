@@ -10,14 +10,15 @@ public class Animal {
     @Override
     public String toString(){
         String animalClass = this.getClass().toString();
-        return "Species: " + animalClass.substring(animalClass.lastIndexOf('.')+1) +
-                ", Gender: " + gender +
+        return ", Gender: " + gender +
                 ", Age: " + age + " months";
     }
 
     public void incrementAge(){
         age++;
     }
+
+    public boolean isMature(){ return age >= maturityAge; }
 
     public int getAge(){
         return age;

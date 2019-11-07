@@ -1,4 +1,4 @@
-package com.sparta.jmm.manager;
+package com.sparta.jmm.main;
 
 import com.sparta.jmm.simulation.Simulation;
 

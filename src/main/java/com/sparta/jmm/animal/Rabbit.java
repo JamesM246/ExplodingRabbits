@@ -6,7 +6,7 @@ public class Rabbit extends Animal {
 
     {
         maturityAge = 3;
-        maxAge = 60;
+        maxAge = 24;
         maxChildren = 14;
     }
 
