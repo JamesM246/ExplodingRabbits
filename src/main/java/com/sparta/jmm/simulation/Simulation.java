@@ -9,11 +9,11 @@ import java.util.Random;
 public class Simulation {
     private ArrayList<Rabbit> rabbitList = new ArrayList<>();
     private ArrayList<Fox> foxList = new ArrayList<>();
-    ArrayList<Rabbit> newRabbits;
-    ArrayList<Rabbit> deadRabbits;
-    ArrayList<Rabbit> eatenRabbits;
-    ArrayList<Fox> newFoxes;
-    ArrayList<Fox> deadFoxes;
+    private ArrayList<Rabbit> newRabbits;
+    private ArrayList<Rabbit> deadRabbits;
+    private ArrayList<Rabbit> eatenRabbits;
+    private ArrayList<Fox> newFoxes;
+    private ArrayList<Fox> deadFoxes;
     private Random random = new Random();
     private int month = 0;
     private final int SIM_DURATION = 60;
